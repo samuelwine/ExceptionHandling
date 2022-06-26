@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ExceptionHandling.Pages
 {
@@ -14,7 +13,7 @@ namespace ExceptionHandling.Pages
 
         public void OnGet()
         {
-
+            throw new Exception();
         }
     }
 }
